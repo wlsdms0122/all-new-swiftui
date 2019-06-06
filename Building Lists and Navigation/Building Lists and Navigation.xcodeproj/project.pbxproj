@@ -30,6 +30,7 @@
 		F3100CA822A9332F000791DC /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3100C9C22A9332F000791DC /* yukon_charleyrivers.jpg */; };
 		F3100CAB22A93375000791DC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3100CAA22A93375000791DC /* Landmark.swift */; };
 		F3100CAD22A934C6000791DC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3100CAC22A934C6000791DC /* Data.swift */; };
+		F3100CAF22A93518000791DC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3100CAE22A93518000791DC /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		F3100C9C22A9332F000791DC /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukon_charleyrivers.jpg; sourceTree = "<group>"; };
 		F3100CAA22A93375000791DC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		F3100CAC22A934C6000791DC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F3100CAE22A93518000791DC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				F3100C5E22A932F0000791DC /* AppDelegate.swift */,
 				F3100C6022A932F0000791DC /* SceneDelegate.swift */,
 				F3100C6222A932F0000791DC /* ContentView.swift */,
+				F3100CAE22A93518000791DC /* LandmarkRow.swift */,
 				F3100C6422A932F0000791DC /* Assets.xcassets */,
 				F3100C6922A932F0000791DC /* LaunchScreen.storyboard */,
 				F3100C6C22A932F0000791DC /* Info.plist */,
@@ -343,6 +346,7 @@
 			files = (
 				F3100C5F22A932F0000791DC /* AppDelegate.swift in Sources */,
 				F3100CAD22A934C6000791DC /* Data.swift in Sources */,
+				F3100CAF22A93518000791DC /* LandmarkRow.swift in Sources */,
 				F3100C6122A932F0000791DC /* SceneDelegate.swift in Sources */,
 				F3100C6322A932F0000791DC /* ContentView.swift in Sources */,
 				F3100CAB22A93375000791DC /* Landmark.swift in Sources */,
