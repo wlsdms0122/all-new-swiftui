@@ -12,10 +12,16 @@ struct LandmarkList: View {
     
     var body: some View {
         NavigationView {
-            List(landmarkData) { landmark in
-                if !self.showFavoritesOnly || landmark.isFavorite {
-                    NavigationButton(destination: LandmarkDetail(landmark: landmark)) {
-                        LandmarkRow(landmark: landmark)
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+                
+                ForEach(landmarkData) { landmark in
+                    if !self.showFavoritesOnly || landmark.isFavorite {
+                        NavigationButton(destination: LandmarkDetail(landmark: landmark)) {
+                            LandmarkRow(landmark: landmark)
+                        }
                     }
                 }
             }
