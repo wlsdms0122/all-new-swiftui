@@ -15,6 +15,7 @@
 		F3100BEC22A8C407000791DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3100BEA22A8C407000791DC /* LaunchScreen.storyboard */; };
 		F3100BF722A8C407000791DC /* Creating_and_Combining_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3100BF622A8C407000791DC /* Creating_and_Combining_ViewsTests.swift */; };
 		F3100C0222A8C407000791DC /* Creating_and_Combining_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3100C0122A8C407000791DC /* Creating_and_Combining_ViewsUITests.swift */; };
+		F3100C1022A8EE40000791DC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3100C0F22A8EE40000791DC /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F3100BFD22A8C407000791DC /* Creating and Combining ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Creating and Combining ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3100C0122A8C407000791DC /* Creating_and_Combining_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creating_and_Combining_ViewsUITests.swift; sourceTree = "<group>"; };
 		F3100C0322A8C407000791DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3100C0F22A8EE40000791DC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F3100BDF22A8C402000791DC /* AppDelegate.swift */,
 				F3100BE122A8C402000791DC /* SceneDelegate.swift */,
 				F3100BE322A8C402000791DC /* ContentView.swift */,
+				F3100C0F22A8EE40000791DC /* CircleImage.swift */,
 				F3100BE522A8C407000791DC /* Assets.xcassets */,
 				F3100BEA22A8C407000791DC /* LaunchScreen.storyboard */,
 				F3100BED22A8C407000791DC /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3100BE022A8C402000791DC /* AppDelegate.swift in Sources */,
+				F3100C1022A8EE40000791DC /* CircleImage.swift in Sources */,
 				F3100BE222A8C402000791DC /* SceneDelegate.swift in Sources */,
 				F3100BE422A8C402000791DC /* ContentView.swift in Sources */,
 			);
