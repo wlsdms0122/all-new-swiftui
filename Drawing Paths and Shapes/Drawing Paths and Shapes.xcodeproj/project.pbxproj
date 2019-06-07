@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30968A222AA7EBB005B280E /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30968A122AA7EBB005B280E /* Badge.swift */; };
+		F30968A422AA7F05005B280E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30968A322AA7F05005B280E /* BadgeSymbol.swift */; };
 		F383891822AA780E0039143E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383891722AA780E0039143E /* AppDelegate.swift */; };
 		F383891A22AA780E0039143E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383891922AA780E0039143E /* SceneDelegate.swift */; };
-		F383891C22AA780E0039143E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383891B22AA780E0039143E /* ContentView.swift */; };
 		F383891E22AA78110039143E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383891D22AA78110039143E /* Assets.xcassets */; };
 		F383892122AA78110039143E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383892022AA78110039143E /* Preview Assets.xcassets */; };
 		F383892422AA78110039143E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F383892222AA78110039143E /* LaunchScreen.storyboard */; };
 		F383892F22AA78110039143E /* Drawing_Paths_and_ShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383892E22AA78110039143E /* Drawing_Paths_and_ShapesTests.swift */; };
 		F383893A22AA78110039143E /* Drawing_Paths_and_ShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383893922AA78110039143E /* Drawing_Paths_and_ShapesUITests.swift */; };
 		F383894822AA78690039143E /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383894722AA78690039143E /* HexagonParameters.swift */; };
-		F383894A22AA787B0039143E /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383894922AA787B0039143E /* Badge.swift */; };
+		F383894A22AA787B0039143E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383894922AA787B0039143E /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F30968A122AA7EBB005B280E /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		F30968A322AA7F05005B280E /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		F383891422AA780E0039143E /* Drawing Paths and Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Paths and Shapes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F383891722AA780E0039143E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F383891922AA780E0039143E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F383891B22AA780E0039143E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F383891D22AA78110039143E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F383892022AA78110039143E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F383892322AA78110039143E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		F383893922AA78110039143E /* Drawing_Paths_and_ShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Paths_and_ShapesUITests.swift; sourceTree = "<group>"; };
 		F383893B22AA78110039143E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F383894722AA78690039143E /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
-		F383894922AA787B0039143E /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		F383894922AA787B0039143E /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +108,13 @@
 				F383894722AA78690039143E /* HexagonParameters.swift */,
 				F383891722AA780E0039143E /* AppDelegate.swift */,
 				F383891922AA780E0039143E /* SceneDelegate.swift */,
-				F383891B22AA780E0039143E /* ContentView.swift */,
+				F383894922AA787B0039143E /* BadgeBackground.swift */,
+				F30968A322AA7F05005B280E /* BadgeSymbol.swift */,
+				F30968A122AA7EBB005B280E /* Badge.swift */,
 				F383891D22AA78110039143E /* Assets.xcassets */,
 				F383892222AA78110039143E /* LaunchScreen.storyboard */,
 				F383892522AA78110039143E /* Info.plist */,
 				F383891F22AA78110039143E /* Preview Content */,
-				F383894922AA787B0039143E /* Badge.swift */,
 			);
 			path = "Drawing Paths and Shapes";
 			sourceTree = "<group>";
@@ -274,10 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F383894822AA78690039143E /* HexagonParameters.swift in Sources */,
-				F383894A22AA787B0039143E /* Badge.swift in Sources */,
+				F30968A222AA7EBB005B280E /* Badge.swift in Sources */,
+				F383894A22AA787B0039143E /* BadgeBackground.swift in Sources */,
 				F383891822AA780E0039143E /* AppDelegate.swift in Sources */,
 				F383891A22AA780E0039143E /* SceneDelegate.swift in Sources */,
-				F383891C22AA780E0039143E /* ContentView.swift in Sources */,
+				F30968A422AA7F05005B280E /* BadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
