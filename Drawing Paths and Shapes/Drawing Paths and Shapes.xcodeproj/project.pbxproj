@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F30968A222AA7EBB005B280E /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30968A122AA7EBB005B280E /* Badge.swift */; };
 		F30968A422AA7F05005B280E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30968A322AA7F05005B280E /* BadgeSymbol.swift */; };
+		F30968A622AA80F3005B280E /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30968A522AA80F3005B280E /* RotatedBadgeSymbol.swift */; };
 		F383891822AA780E0039143E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383891722AA780E0039143E /* AppDelegate.swift */; };
 		F383891A22AA780E0039143E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383891922AA780E0039143E /* SceneDelegate.swift */; };
 		F383891E22AA78110039143E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383891D22AA78110039143E /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		F30968A122AA7EBB005B280E /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		F30968A322AA7F05005B280E /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		F30968A522AA80F3005B280E /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		F383891422AA780E0039143E /* Drawing Paths and Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Paths and Shapes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F383891722AA780E0039143E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F383891922AA780E0039143E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				F383892222AA78110039143E /* LaunchScreen.storyboard */,
 				F383892522AA78110039143E /* Info.plist */,
 				F383891F22AA78110039143E /* Preview Content */,
+				F30968A522AA80F3005B280E /* RotatedBadgeSymbol.swift */,
 			);
 			path = "Drawing Paths and Shapes";
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				F383894A22AA787B0039143E /* BadgeBackground.swift in Sources */,
 				F383891822AA780E0039143E /* AppDelegate.swift in Sources */,
 				F383891A22AA780E0039143E /* SceneDelegate.swift in Sources */,
+				F30968A622AA80F3005B280E /* RotatedBadgeSymbol.swift in Sources */,
 				F30968A422AA7F05005B280E /* BadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
